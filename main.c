@@ -4,5 +4,5 @@
 
 int main()
 {
-    atv1();
+    atv2();
 }
