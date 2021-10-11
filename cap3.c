@@ -74,6 +74,18 @@ int atv6()
 }
 
 // 7) Faça um programa que leia um valor em reais e a cotação do dólar. Em seguida, imprima o valor correspondente em dólares.
+int atv7()
+{
+    printf("Digite um valor em R$: ");
+    float valor, cotacao, dolares;
+    scanf("%f", &valor);
+    printf("Digite a cotação do dólar em R$: ");
+    scanf("%f", &cotacao);
+    dolares = valor / cotacao;
+    printf("O valor convertido em dólares é %.2f", dolares);
+    return 0;
+}
+
 // 8) Leia um valor que represente uma temperatura em graus Celsius e apresente-a convertida em graus Fahrenheit. A fórmula de conversão é: F = C * (9.0/5.0) + 32.0, sendo F a temperatura em Fahrenheit e C a temperatura em Celsius.
 // 9) Leia um ângulo em graus e apresente-o convertido em radianos. A fórmula de conversão é R = G * π/180, sendo G o ângulo em graus e R em radianos e π = 3.141592.
 // 10) A importância de R$ 780.000,00 será dividida entre três ganhadores de um concurso, sendo que:
