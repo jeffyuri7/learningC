@@ -38,6 +38,15 @@ int atv3()
 }
 
 // 4) Leia quatro valores do tipo float. Calcule e exiba a média aritmética desses valores.
+int atv4()
+{
+    printf("Digite quatro números do tipo float: ");
+    float a, b, c, d, media;
+    scanf("%f%f%f%f", &a, &b, &c, &d);
+    media = (a + b + c + d) / 4;
+    printf("A média dos números digitados é %f", media);
+}
+
 // 5) Faça um programa que calcule o ano de nascimento de uma pessoa a partir de sua idade e do ano atual.
 // 6) Leia uma velocidade em km/h (quilômetros por hora) e apresente convertida em m/s (metros por segundo). A fórmula de conversão é M = K/36, sendo K a velocidade em km/h e M em m/s.
 // 7) Faça um programa que leia um valor em reais e a cotação do dólar. Em seguida, imprima o valor correspondente em dólares.
