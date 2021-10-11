@@ -3,7 +3,7 @@
 
 //Exercícios:
 
-// 1) Faça um programa que leia um número inteiro e retorne seu antecessor e seu sucessor.
+//  1) Faça um programa que leia um número inteiro e retorne seu antecessor e seu sucessor.
 int atv1()
 {
     int x, y, z;
@@ -16,7 +16,7 @@ int atv1()
     return 0;
 }
 
-// 2) Faça um programa que leia um número real e imprima a quinta parte desse número.
+//  2) Faça um programa que leia um número real e imprima a quinta parte desse número.
 int atv2()
 {
     float num;
@@ -26,7 +26,7 @@ int atv2()
     return 0;
 }
 
-// 3) Faça um programa que leia três valores inteiros e mostre sua soma.
+//  3) Faça um programa que leia três valores inteiros e mostre sua soma.
 int atv3()
 {
     printf("Digite três valores inteiros: ");
@@ -37,7 +37,7 @@ int atv3()
     return 0;
 }
 
-// 4) Leia quatro valores do tipo float. Calcule e exiba a média aritmética desses valores.
+//  4) Leia quatro valores do tipo float. Calcule e exiba a média aritmética desses valores.
 int atv4()
 {
     printf("Digite quatro números do tipo float: ");
@@ -48,8 +48,9 @@ int atv4()
     return 0;
 }
 
-// 5) Faça um programa que calcule o ano de nascimento de uma pessoa a partir de sua idade e do ano atual.
-int atv5() {
+//  5) Faça um programa que calcule o ano de nascimento de uma pessoa a partir de sua idade e do ano atual.
+int atv5()
+{
     printf("Digite o ano atual: ");
     int ano, idade, nasc;
     scanf("%d", &ano);
@@ -60,7 +61,18 @@ int atv5() {
     return 0;
 }
 
-// 6) Leia uma velocidade em km/h (quilômetros por hora) e apresente convertida em m/s (metros por segundo). A fórmula de conversão é M = K/36, sendo K a velocidade em km/h e M em m/s.
+/*  6) Leia uma velocidade em km/h (quilômetros por hora) e apresente convertida em m/s (metros por segundo).
+    A fórmula de conversão é M = K/36, sendo K a velocidade em km/h e M em m/s.*/
+int atv6()
+{
+    printf("Digite uma velocidade em km/h: ");
+    float km, ms;
+    scanf("%f", &km);
+    ms = km/3.6;
+    printf("A velocidade convertida em m/s é %.2f", ms);
+    return 0;
+}
+
 // 7) Faça um programa que leia um valor em reais e a cotação do dólar. Em seguida, imprima o valor correspondente em dólares.
 // 8) Leia um valor que represente uma temperatura em graus Celsius e apresente-a convertida em graus Fahrenheit. A fórmula de conversão é: F = C * (9.0/5.0) + 32.0, sendo F a temperatura em Fahrenheit e C a temperatura em Celsius.
 // 9) Leia um ângulo em graus e apresente-o convertido em radianos. A fórmula de conversão é R = G * π/180, sendo G o ângulo em graus e R em radianos e π = 3.141592.

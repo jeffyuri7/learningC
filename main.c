@@ -4,6 +4,6 @@
 
 int main()
 {
-    atv5();
+    atv6();
     return 0;
 }
