@@ -98,7 +98,19 @@ int atv8()
     return 0;
 }
 
-// 9) Leia um ângulo em graus e apresente-o convertido em radianos. A fórmula de conversão é R = G * π/180, sendo G o ângulo em graus e R em radianos e π = 3.141592.
+/* 9) Leia um ângulo em graus e apresente-o convertido em radianos.
+A fórmula de conversão é R = G * π/180, sendo G o ângulo em graus e R em radianos e π = 3.141592.*/
+int atv9()
+{
+    const float PI = 3.141592;
+    printf("Digite um ângulo em graus: ");
+    float angulo, radiano;
+    scanf("%f", &angulo);
+    radiano = angulo * PI/180;
+    printf("O ângulo convertido em radianos é: %f", radiano);
+    return 0;
+}
+
 // 10) A importância de R$ 780.000,00 será dividida entre três ganhadores de um concurso, sendo que:
 //    i. O primeiro ganhador receberá 46% do total.
 //    ii. O segundo receberá 32% do total.
