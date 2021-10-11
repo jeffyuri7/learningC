@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1633969884 source:/home/jefferson/Projetos/c/learningC/main.c
+	<stdio.h>
+	<stdlib.h>
+
