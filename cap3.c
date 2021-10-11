@@ -98,8 +98,8 @@ int atv8()
     return 0;
 }
 
-/* 9) Leia um ângulo em graus e apresente-o convertido em radianos.
-A fórmula de conversão é R = G * π/180, sendo G o ângulo em graus e R em radianos e π = 3.141592.*/
+/*  9) Leia um ângulo em graus e apresente-o convertido em radianos.
+    A fórmula de conversão é R = G * π/180, sendo G o ângulo em graus e R em radianos e π = 3.141592.*/
 int atv9()
 {
     const float PI = 3.141592;
@@ -111,21 +111,56 @@ int atv9()
     return 0;
 }
 
-// 10) A importância de R$ 780.000,00 será dividida entre três ganhadores de um concurso, sendo que:
-//    i. O primeiro ganhador receberá 46% do total.
-//    ii. O segundo receberá 32% do total.
-//    iii. O terceiro receberá o restante.
+/*  10) A importância de R$ 780.000,00 será dividida entre três ganhadores de um concurso, sendo que:
+        i. O primeiro ganhador receberá 46% do total.
+        ii. O segundo receberá 32% do total.
+        iii. O terceiro receberá o restante.
+    Calcule e imprima a quantia recebida por cada um dos ganhadores.*/
+int atv10()
+{
+    printf("Premiação do sorteio\n");
+    double premio1, premio2, premio3, premiacao = 780000.00;
+    premio1 = premiacao * 0.46;
+    premio2 = premiacao * 0.32;
+    premio3 = premiacao - (premio1 + premio2);
+    printf("Os prêmios serão distribuídos da seguinte forma:\n\tPrimeiro ganhador: \t%.2f\n\t"
+           "Segundo ganhador: \t%.2f\n\tTerceiro ganhador: \t%.2f.\n\tTotal da Premiação:\t%.2f",
+           premio1, premio2, premio3, premiacao);
+    return 0;
+}
 
-// Calcule e imprima a quantia recebida por cada um dos ganhadores.
-// 11) Leia o valor do raio de um círculo. Calcule e imprima a área do círculo correspondente. A área do círculo é A = π* raio2, sendo π = 3.141592.
-// 12) Leia a altura e o raio de um cilindro circular e imprima o volume desse cilindro. O volume de um cilindro circular é calculado por meio da seguinte fórmula:
-// Imagem no material: em que π = 3.141592
-// 13) Sejam a e b os catetos de um triângulo cuja hipotenusa h é obtida pela equação:
-// Imagem no material: Faça um programa que leia os valores de a e b, e calcule o valor da hipotenusa através da fórmula dada. Imprima o resultado.
-// 14) Faça um programa que converta uma letra maiúscula em letra minúscula. Use a tabela ASCII para isso.
-// 15) Faça um programa para ler um número inteiro positivo de três dígitos. Em seguida, calcule e mostre o número formado pelos dígitos invertidos do número lido. Exemplo:
-// Número lido = 123 Número gerado = 321
-// 16) Escreva um programa que leia um número inteiro e mostre a multiplicação e a divisão desse número por dois (utilize os operadores de deslocamento de bits).
-// 17) Escreva um programa que leia um número inteiro e mostre o seu complemento bit a bit.
-// 18) Elabore um programa que leia dois números inteiros e exiba o deslocamento, à esquerda e à direita, do primeiro número pelo segundo.
-// 19) Elabore um programa que leia dois números inteiros e exiba o resultado das operações de “ou exclusivo”, “ou bit a bit” e “e bit a bit” entre eles.
+/*  11) Leia o valor do raio de um círculo. Calcule e imprima a área do círculo correspondente.
+    A área do círculo é A = π* raio2, sendo π = 3.141592.*/
+
+
+/*  12) Leia a altura e o raio de um cilindro circular e imprima o volume desse cilindro.
+    O volume de um cilindro circular é calculado por meio da seguinte fórmula:
+    Imagem no material: em que π = 3.141592*/
+
+
+/*  13) Sejam a e b os catetos de um triângulo cuja hipotenusa h é obtida pela equação:
+    Imagem no material: Faça um programa que leia os valores de a e b, e calcule o valor da
+    hipotenusa através da fórmula dada. Imprima o resultado.*/
+
+
+//  14) Faça um programa que converta uma letra maiúscula em letra minúscula. Use a tabela ASCII para isso.
+
+
+/*  15) Faça um programa para ler um número inteiro positivo de três dígitos. Em seguida, calcule e mostre
+    o número formado pelos dígitos invertidos do número lido. Exemplo:
+    Número lido = 123 Número gerado = 321*/
+
+
+/*  16) Escreva um programa que leia um número inteiro e mostre a multiplicação e a divisão desse número por dois
+    (utilize os operadores de deslocamento de bits).*/
+
+
+//  17) Escreva um programa que leia um número inteiro e mostre o seu complemento bit a bit.
+
+
+/*  18) Elabore um programa que leia dois números inteiros e exiba o deslocamento, à esquerda e à direita, do
+    primeiro número pelo segundo.*/
+
+
+/*  19) Elabore um programa que leia dois números inteiros e exiba o resultado das operações de “ou exclusivo”,
+    “ou bit a bit” e “e bit a bit” entre eles.*/
