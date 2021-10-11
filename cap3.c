@@ -86,7 +86,18 @@ int atv7()
     return 0;
 }
 
-// 8) Leia um valor que represente uma temperatura em graus Celsius e apresente-a convertida em graus Fahrenheit. A fórmula de conversão é: F = C * (9.0/5.0) + 32.0, sendo F a temperatura em Fahrenheit e C a temperatura em Celsius.
+/* 8) Leia um valor que represente uma temperatura em graus Celsius e apresente-a convertida em graus Fahrenheit.
+A fórmula de conversão é: F = C * (9.0/5.0) + 32.0, sendo F a temperatura em Fahrenheit e C a temperatura em Celsius.*/
+int atv8()
+{
+    printf("Digite uma temperatura em graus Celsius: ");
+    float tempC, tempF;
+    scanf("%f", &tempC);
+    tempF = tempC * (9.0/5.0) + 32.0;
+    printf("A temperatura em graus Fahrenheit é: %.2f", tempF);
+    return 0;
+}
+
 // 9) Leia um ângulo em graus e apresente-o convertido em radianos. A fórmula de conversão é R = G * π/180, sendo G o ângulo em graus e R em radianos e π = 3.141592.
 // 10) A importância de R$ 780.000,00 será dividida entre três ganhadores de um concurso, sendo que:
 //    i. O primeiro ganhador receberá 46% do total.
