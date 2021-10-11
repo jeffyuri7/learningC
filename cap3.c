@@ -45,9 +45,21 @@ int atv4()
     scanf("%f%f%f%f", &a, &b, &c, &d);
     media = (a + b + c + d) / 4;
     printf("A média dos números digitados é %f", media);
+    return 0;
 }
 
 // 5) Faça um programa que calcule o ano de nascimento de uma pessoa a partir de sua idade e do ano atual.
+int atv5() {
+    printf("Digite o ano atual: ");
+    int ano, idade, nasc;
+    scanf("%d", &ano);
+    printf("Digite a sua idade: ");
+    scanf("%d", &idade);
+    nasc = ano - idade;
+    printf("Você nasceu no ano: %d", nasc);
+    return 0;
+}
+
 // 6) Leia uma velocidade em km/h (quilômetros por hora) e apresente convertida em m/s (metros por segundo). A fórmula de conversão é M = K/36, sendo K a velocidade em km/h e M em m/s.
 // 7) Faça um programa que leia um valor em reais e a cotação do dólar. Em seguida, imprima o valor correspondente em dólares.
 // 8) Leia um valor que represente uma temperatura em graus Celsius e apresente-a convertida em graus Fahrenheit. A fórmula de conversão é: F = C * (9.0/5.0) + 32.0, sendo F a temperatura em Fahrenheit e C a temperatura em Celsius.
