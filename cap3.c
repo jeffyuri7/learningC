@@ -1,5 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
+
+const float PI = 3.141592;
 
 //Exercícios:
 
@@ -102,7 +105,6 @@ int atv8()
     A fórmula de conversão é R = G * π/180, sendo G o ângulo em graus e R em radianos e π = 3.141592.*/
 int atv9()
 {
-    const float PI = 3.141592;
     printf("Digite um ângulo em graus: ");
     float angulo, radiano;
     scanf("%f", &angulo);
@@ -131,6 +133,14 @@ int atv10()
 
 /*  11) Leia o valor do raio de um círculo. Calcule e imprima a área do círculo correspondente.
     A área do círculo é A = π* raio2, sendo π = 3.141592.*/
+int atv11()
+{
+    printf("Digite o valor do raio de um círculo: ");
+    float raio, area;
+    scanf("%f", &raio);
+    area = PI * (raio * raio);
+    printf("A área da circuferência é %.2f", area);
+}
 
 
 /*  12) Leia a altura e o raio de um cilindro circular e imprima o volume desse cilindro.
