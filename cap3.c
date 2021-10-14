@@ -146,15 +146,28 @@ int atv11()
 /*  12) Leia a altura e o raio de um cilindro circular e imprima o volume desse cilindro.
     O volume de um cilindro circular é calculado por meio da seguinte fórmula:
     Imagem no material: em que π = 3.141592*/
+int atv12()
+{
 
+}
 
 /*  13) Sejam a e b os catetos de um triângulo cuja hipotenusa h é obtida pela equação:
     Imagem no material: Faça um programa que leia os valores de a e b, e calcule o valor da
     hipotenusa através da fórmula dada. Imprima o resultado.*/
+int atv13()
+{
 
+}
 
 //  14) Faça um programa que converta uma letra maiúscula em letra minúscula. Use a tabela ASCII para isso.
-
+int atv14()
+{
+    printf("Digite uma letra maiuscula: ");
+    char letMan, letMin;
+    scanf("%c", &letMan);
+    letMin = letMan + 32;
+    printf("A letra %c em minúsculo é %c", letMan, letMin);
+}
 
 /*  15) Faça um programa para ler um número inteiro positivo de três dígitos. Em seguida, calcule e mostre
     o número formado pelos dígitos invertidos do número lido. Exemplo:
