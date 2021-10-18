@@ -148,7 +148,13 @@ int atv11()
     Imagem no material: em que π = 3.141592*/
 int atv12()
 {
-
+    printf("Digite o raio do cilindro: ");
+    float raio, altura, volume;
+    scanf("%f", &raio);
+    printf("Digite a altura do cilindro: ");
+    scanf("%f", &altura);
+    volume = PI * raio * raio * altura;
+    printf("O volume do cilindro é %.2f", volume);
 }
 
 /*  13) Sejam a e b os catetos de um triângulo cuja hipotenusa h é obtida pela equação:
