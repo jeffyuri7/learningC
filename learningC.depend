@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1634235183 source:/home/jefferson/Projetos/c/learningC/main.c
+1634596549 source:/home/jefferson/Projetos/c/learningC/main.c
 	<stdio.h>
 	<stdlib.h>
 	"cap3.h"
@@ -9,5 +9,5 @@
 	<stdlib.h>
 	<math.h>
 
-1634235183 /home/jefferson/Projetos/c/learningC/cap3.h
+1634593794 /home/jefferson/Projetos/c/learningC/cap3.h
 

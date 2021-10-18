@@ -160,9 +160,18 @@ int atv12()
 /*  13) Sejam a e b os catetos de um triângulo cuja hipotenusa h é obtida pela equação:
     Imagem no material: Faça um programa que leia os valores de a e b, e calcule o valor da
     hipotenusa através da fórmula dada. Imprima o resultado.*/
+
 int atv13()
 {
-
+    printf("Programa para calcular o valor da hipotenusa de um triângulo!\n");
+    printf("-------------------------------------------------------------\n");
+    double cat1, cat2, hipot;
+    printf("Digite o valor do primeito cateto: ");
+    scanf("%lf", &cat1);
+    printf("Digite o valor do segundo cateto: ");
+    scanf("%lf", &cat2);
+    hipot = sqrt((cat1*cat1) + (cat2*cat2));
+    printf("A hipotenusa do triângulo é: %.2lf", hipot);
 }
 
 //  14) Faça um programa que converta uma letra maiúscula em letra minúscula. Use a tabela ASCII para isso.
